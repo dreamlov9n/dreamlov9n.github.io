@@ -1,0 +1,15 @@
+* {
+    font-family:sans-serif;
+    color:aliceblue
+}
+body {
+    background-color:black;
+}
+.tomoko {
+    height: 80px;
+    width: 80px;
+}
+.tomoko-mouse {
+    height: 80px;
+    width: 80px;
+}
