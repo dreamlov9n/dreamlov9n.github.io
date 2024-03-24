@@ -1,0 +1,79 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+/*background-color: rgb(240, 240, 240);*/
+background-image: url(https://i.ibb.co/Z6273DY/image-2.png);
+background-size:cover;
+overflow-x:hidden; /*disable horizontal scrolling*/
+overflow-y:hidden /*Same thing but for vertical*/
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.247);
+    font-size: x-large;
+    text-align: center;
+    width:100%;
+}
+
+.decoration-box {
+    height: 40px;
+    width: 100%;
+    background-color: rgba(255, 68, 0, 0.925);
+    position: relative;
+    bottom: 100px;
+
+}
+
+.Categories {
+    position: absolute;
+    left: 80px;
+}
+/* First item config starts here*/
+.FirstFrame {
+    position:relative;
+    height:800px;
+    width:770px;
+    left:21.5%;
+}
+
+.FirstItemBackground {
+    background-color: white;
+    position:relative;
+    height: 800px;
+    width: 770px;
+    bottom:3.6%;
+    right:3.4%;
+
+    border-radius: 10px;
+}
+
+.FirstItem {
+    height: 350px;
+    width: 350px;
+    position:relative;
+    bottom:100%;
+    object-fit: cover;
+    border-radius:8px;
+}
+.FirstFrameText {
+    position:relative;
+    bottom:143%;
+    left:47.5%;
+    font-size:40px;
+}
+.AboutText{
+    width:48%;
+    height:500px;
+    font-size: 16px;
+}
+.GoBack{
+    height:30px;
+    width:80px;
+    position:relative;
+    
+    bottom:217%;
+    right:2%;
+}
+/* end. */
