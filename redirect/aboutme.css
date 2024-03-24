@@ -17,3 +17,30 @@ body {
     height: 80px;
     width: 80px;
 }
+
+.bluecar {
+    height: 60px;
+    width: 120px;
+
+    animation: CarGo;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+.hellotext {
+    font-size: 40px;
+    animation: HelloSlide;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+
+
+@keyframes HelloSlide{
+    from{margin-left: 100%;}
+    to{margin-left: -20%;}
+}
+
+@keyframes CarGo{
+    from{margin-left: 100%;}
+    to{margin-left: -100%;}
+}
