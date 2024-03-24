@@ -3,13 +3,15 @@
 }
 
 body {
-background-color: rgb(240, 240, 240);
+/*background-color: rgb(240, 240, 240);*/
+background-image: url(https://i.ibb.co/Z6273DY/image-2.png);
+background-size:cover;
 overflow-x:hidden; /*disable horizontal scrolling*/
 overflow-y:hidden /*Same thing but for vertical*/
 }
 
 header {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.247);
     font-size: x-large;
     text-align: center;
     width:100%;
@@ -18,7 +20,7 @@ header {
 .decoration-box {
     height: 40px;
     width: 100%;
-    background-color: orangered;
+    background-color: rgba(255, 68, 0, 0.925);
     position: relative;
     bottom: 100px;
 
@@ -26,15 +28,23 @@ header {
 
 .Categories {
     position: absolute;
-    left: 100px;
+    left: 80px;
 }
 /* First item config starts here*/
+.FirstFrame {
+    position:relative;
+    height:300px;
+    width:270px;
+    left:21.5%;
+}
+
 .FirstItemBackground {
     background-color: white;
     position:relative;
     height: 300px;
     width: 270px;
-    left:300px;
+    bottom:3.6%;
+    right:3.4%;
 
     border-radius: 10px;
 }
@@ -43,26 +53,33 @@ header {
     height: 250px;
     width: 250px;
     position:relative;
-    left: 310px;
-    bottom:290px;
+    bottom:100%;
     object-fit: cover;
     border-radius:8px;
 }
 .FirstFrameText {
     position:relative;
-    left: 312px;
-    bottom:290px;
+    bottom:100%;
+    left:1.5%;
     font-size:20px;
 }
 /* end. */
 /* Second item config starts here*/
+.SecondFrame {
+    position:relative;
+    height:300px;
+    width:270px;
+    left:40.5%;
+    bottom:300px; /*makes so that the frame is in 1st row */
+
+}
 .SecondItemBackground {
     background-color: white;
     position:relative;
     height: 300px;
     width: 270px;
-    left:640px;
-    bottom:581px;
+    bottom:3.6%;
+    right:3.4%;
 
     border-radius: 10px;
 }
@@ -70,42 +87,122 @@ header {
 .SecondItem {
     height: 250px;
     width: 250px;
-    position: relative;
-    left: 650px;
-    bottom: 874px;
+    position:relative;
+    bottom:100%;
     object-fit: cover;
     border-radius:8px;
 }
 .SecondFrameText {
     position:relative;
-    left: 654px;
-    bottom: 873px;
+    bottom:100%;
+    left:1.5%;
     font-size:20px;
 }
 /* end. */
 /* Third item config starts here*/
+.ThirdFrame {
+    position:relative;
+    height:300px;
+    width:270px;
+    left:59.5%;
+    bottom:600px; /*makes so that the frame is in 1st row */
+    
+}
+
 .ThirdItemBackground {
     background-color: white;
     position:relative;
     height: 300px;
     width: 270px;
-    left:970px;
-    bottom:1163px;
+    bottom:3.6%;
+    right:3.4%;
+
     border-radius: 10px;
 }
 
 .ThirdItem {
     height: 250px;
     width: 250px;
-    position: relative;
-    left: 980px;
-    bottom: 1455px;
+    position:relative;
+    bottom:100%;
     object-fit: cover;
     border-radius:8px;
 }
+
 .ThirdFrameText {
     position:relative;
-    left: 992px;
-    bottom: 1455px;
+    bottom:100%;
+    left:1.5%;
+    font-size:20px;
+}
+/* end. */
+/* Fourth item config starts here*/
+.FourthFrame {
+    position:relative;
+    height:300px;
+    width:270px;
+    left:78.5%;
+    bottom:900px; /*makes so that the frame is in 1st row */
+   
+}
+
+.FourthItemBackground {
+    background-color: white;
+    position:relative;
+    height: 300px;
+    width: 270px;
+    bottom:3.6%;
+    right:3.4%;
+
+    border-radius: 10px;
+}
+
+.FourthItem {
+    height: 250px;
+    width: 250px;
+    position:relative;
+    bottom:100%;
+    object-fit: cover;
+    border-radius:8px;
+}
+.FourthFrameText {
+    position:relative;
+    bottom:100%;
+    left:1.5%;
+    font-size:20px;
+}
+/* end. */
+/* Fifth item config starts here*/
+
+.FifthFrame {
+    position:absolute;
+    height:300px;
+    width:270px;
+    left:21.7%;
+    top:50%;
+}
+.FifthItemBackground {
+    background-color: white;
+    position:relative;
+    height: 300px;
+    width: 270px;
+    bottom:3.6%;
+    right:3.2%;
+    border-radius: 10px;
+}
+
+.FifthItem {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    bottom:100%;
+
+    object-fit: cover;
+    border-radius:8px;
+}
+.FifthFrameText {
+    position:relative;
+    bottom:100%;
+    left:1.5%;
     font-size:20px;
 }
