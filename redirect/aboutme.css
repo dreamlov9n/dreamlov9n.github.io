@@ -7,11 +7,17 @@ body {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
 
 
+    overflow-x:hidden;
+    overflow-y:hidden;
+
     
 }
 .tomoko {
     height: 80px;
     width: 80px;
+    /*animation: tomokoRotate;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;*/
 }
 .tomoko-mouse {
     height: 80px;
@@ -43,4 +49,8 @@ body {
 @keyframes CarGo{
     from{margin-left: 100%;}
     to{margin-left: -100%;}
+}
+
+@keyframes tomokoRotate{
+    100%{transform: rotateZ(360deg)}
 }

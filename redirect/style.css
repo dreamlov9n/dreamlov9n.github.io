@@ -7,7 +7,7 @@ body {
 background-image: url(https://i.ibb.co/Z6273DY/image-2.png);
 background-size:cover;
 overflow-x:hidden; /*disable horizontal scrolling*/
-overflow-y:hidden /*Same thing but for vertical*/
+overflow-y:hidden; /*Same thing but for vertical*/
 }
 
 header {
