@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+  .ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+  .ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
 * {
     font-family:sans-serif;
     color:aliceblue
@@ -10,20 +29,19 @@ body {
     overflow-x:hidden;
     overflow-y:hidden;
 
-    
 }
-.tomoko {
+/*.tomoko {
     height: 80px;
     width: 80px;
-    /*animation: tomokoRotate;
+    animation: tomokoRotate;
     animation-iteration-count: infinite;
-    animation-duration: 4s;*/
+    animation-duration: 4s;
 }
 .tomoko-mouse {
     height: 80px;
     width: 80px;
-}
-
+} 
+*/
 .bluecar {
     height: 60px;
     width: 120px;
@@ -31,15 +49,93 @@ body {
     animation: CarGo;
     animation-iteration-count: infinite;
     animation-duration: 4s;
+} 
+
+.socials {
+    text-align: right;
+    margin:0px;
+}
+.githubRepo {
+    text-decoration: none;
+    color:black;
+}
+.ytChannel {
+    text-decoration: none;
+    color:black;
 }
 
 .hellotext {
-    font-size: 40px;
-    animation: HelloSlide;
+    font-size: 120px;
+    margin-bottom: 30px; /*Empty space between .hellotext and .MainText*/
+    /*animation: HelloSlide;
     animation-iteration-count: infinite;
-    animation-duration: 6s;
+    animation-duration: 8s;*/
+    text-align: center;
 }
 
+.MainText {
+    text-align: center;
+    font-size: 40px;
+    font-family: Ubuntu;
+}
+
+.shopRedirect {
+    position:relative;
+    left:15%;
+    margin:100px;
+    font-size:xx-large;
+    width:350px;
+    height:100px;
+    background-color: black;
+    text-align:center;
+    line-height: 90px; /*text center*/
+    border-radius: 40px;
+
+}
+
+.mangoRedirect {
+    position:relative;
+    left:15%;
+    margin:100px;
+    font-size:xx-large;
+    width:350px;
+    height:100px;
+    background-color: black;
+    text-align:center;
+    line-height: 90px; /*text center*/
+    border-radius: 40px;
+
+}
+
+.aboutRedirect {
+    position:relative;
+    left:55%;
+    bottom:200px;
+    margin:100px;
+    font-size:xx-large;
+    width:350px;
+    height:100px;
+    background-color: black;
+    text-align:center;
+    line-height: 90px; /*text center*/
+    border-radius: 40px;
+
+}
+
+.idkRedirect {
+    position:relative;
+    left:55%;
+    bottom:600px;
+    margin:100px;
+    font-size:xx-large;
+    width:350px;
+    height:100px;
+    background-color: black;
+    text-align:center;
+    line-height: 90px; /*text center*/
+    border-radius: 40px;
+
+}
 
 @keyframes HelloSlide{
     from{margin-left: 100%;}

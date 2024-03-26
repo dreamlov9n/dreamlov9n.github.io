@@ -1,0 +1,56 @@
+* {
+    font-family:sans-serif;
+    color:aliceblue
+}
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+
+
+    overflow-x:hidden;
+    overflow-y:hidden;
+
+    
+}
+.tomoko {
+    height: 80px;
+    width: 80px;
+    /*animation: tomokoRotate;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;*/
+}
+.tomoko-mouse {
+    height: 80px;
+    width: 80px;
+}
+
+.bluecar {
+    height: 60px;
+    width: 120px;
+
+    animation: CarGo;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+.hellotext {
+    font-size: 40px;
+    animation: HelloSlide;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+
+
+@keyframes HelloSlide{
+    from{margin-left: 100%;}
+    to{margin-left: -20%;}
+}
+
+@keyframes CarGo{
+    from{margin-left: 100%;}
+    to{margin-left: -100%;}
+}
+
+@keyframes tomokoRotate{
+    100%{transform: rotateZ(360deg)}
+}

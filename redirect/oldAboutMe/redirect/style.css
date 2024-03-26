@@ -1,0 +1,234 @@
+* {
+    font-family: sans-serif;
+
+    
+}
+
+body {
+/*background-color: rgb(240, 240, 240);*/
+background-image: url(https://i.ibb.co/Z6273DY/image-2.png);
+background-size:cover;
+overflow-x:hidden; /*disable horizontal scrolling*/
+overflow-y:hidden; /*Same thing but for vertical*/
+}
+
+header {
+    background-color: rgba(255, 128, 25, 0.205);
+    font-size: x-large;
+    text-align: center;
+    width:110%;
+
+    position:relative;
+    right:5%;
+}
+.TopTitle {
+    text-align: left;
+    position: relative;
+    left:4.5%;
+    bottom:80%;
+    z-index: 10;
+}
+
+.decoration-box {
+    height: 30px;
+    width: 120%;
+    
+
+    background: rgb(255,80,80);
+    background: linear-gradient(90deg, rgba(255,80,80,1) 0%, rgba(233,146,22,1) 63%); 
+
+    
+
+    position: relative;
+    bottom: 28px;
+    right:3%;
+}
+
+.decorationBoxText {
+    text-align: left;
+    position: relative;
+    left:6.3%;
+    bottom:6%;
+}
+
+.Categories {
+    position: absolute;
+    left: 6%;
+    font-size:large;
+}
+/* First item config starts here*/
+.FirstFrame {
+    position:relative;
+    height:300px;
+    width:270px;
+    left:21.5%;
+}
+
+.FirstItemBackground {
+    background-color: white;
+    position:relative;
+    height: 300px;
+    width: 270px;
+    bottom:3.6%;
+    right:3.4%;
+
+    border-radius: 10px;
+}
+
+.FirstItem {
+    height: 250px;
+    width: 250px;
+    position:relative;
+    bottom:100%;
+    object-fit: cover;
+    border-radius:8px;
+}
+.FirstFrameText {
+    position:relative;
+    bottom:100%;
+    left:1.5%;
+    font-size:20px;
+}
+/* end. */
+/* Second item config starts here*/
+.SecondFrame {
+    position:relative;
+    height:300px;
+    width:270px;
+    left:40.5%;
+    bottom:300px; /*makes so that the frame is in 1st row */
+
+}
+.SecondItemBackground {
+    background-color: white;
+    position:relative;
+    height: 300px;
+    width: 270px;
+    bottom:3.6%;
+    right:3.4%;
+
+    border-radius: 10px;
+}
+
+.SecondItem {
+    height: 250px;
+    width: 250px;
+    position:relative;
+    bottom:100%;
+    object-fit: cover;
+    border-radius:8px;
+}
+.SecondFrameText {
+    position:relative;
+    bottom:100%;
+    left:1.5%;
+    font-size:20px;
+}
+/* end. */
+/* Third item config starts here*/
+.ThirdFrame {
+    position:relative;
+    height:300px;
+    width:270px;
+    left:59.5%;
+    bottom:600px; /*makes so that the frame is in 1st row */
+    
+}
+
+.ThirdItemBackground {
+    background-color: white;
+    position:relative;
+    height: 300px;
+    width: 270px;
+    bottom:3.6%;
+    right:3.4%;
+
+    border-radius: 10px;
+}
+
+.ThirdItem {
+    height: 250px;
+    width: 250px;
+    position:relative;
+    bottom:100%;
+    object-fit: cover;
+    border-radius:8px;
+}
+
+.ThirdFrameText {
+    position:relative;
+    bottom:100%;
+    left:1.5%;
+    font-size:20px;
+}
+/* end. */
+/* Fourth item config starts here*/
+.FourthFrame {
+    position:relative;
+    height:300px;
+    width:270px;
+    left:78.5%;
+    bottom:900px; /*makes so that the frame is in 1st row */
+   
+}
+
+.FourthItemBackground {
+    background-color: white;
+    position:relative;
+    height: 300px;
+    width: 270px;
+    bottom:3.6%;
+    right:3.4%;
+
+    border-radius: 10px;
+}
+
+.FourthItem {
+    height: 250px;
+    width: 250px;
+    position:relative;
+    bottom:100%;
+    object-fit: cover;
+    border-radius:8px;
+}
+.FourthFrameText {
+    position:relative;
+    bottom:100%;
+    left:1.5%;
+    font-size:20px;
+}
+/* end. */
+/* Fifth item config starts here*/
+
+.FifthFrame {
+    position:absolute;
+    height:300px;
+    width:270px;
+    left:21.7%;
+    top:50%;
+}
+.FifthItemBackground {
+    background-color: white;
+    position:relative;
+    height: 300px;
+    width: 270px;
+    bottom:3.6%;
+    right:3.2%;
+    border-radius: 10px;
+}
+
+.FifthItem {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    bottom:100%;
+
+    object-fit: cover;
+    border-radius:8px;
+}
+.FifthFrameText {
+    position:relative;
+    bottom:100%;
+    left:1.5%;
+    font-size:20px;
+}
