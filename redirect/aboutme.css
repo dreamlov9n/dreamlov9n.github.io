@@ -56,11 +56,14 @@ body {
     margin:0px;
 }
 .githubRepo {
-    text-decoration: none;
+    text-decoration: underline;
     color:black;
 }
 .ytChannel {
-    text-decoration: none;
+    text-decoration: underline;
+    color:black;
+}
+.myDesktop {
     color:black;
 }
 
@@ -71,6 +74,7 @@ body {
     animation-iteration-count: infinite;
     animation-duration: 8s;*/
     text-align: center;
+    line-height: 10px;
 }
 
 .MainText {
