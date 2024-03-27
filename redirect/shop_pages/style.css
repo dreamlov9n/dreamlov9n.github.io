@@ -68,8 +68,8 @@ header {
 .FirstItemBackground {
     background-color: white;
     position:relative;
-    height: 800px;
-    width: 770px;
+    height: 90vh;
+    width: 50vw;
     bottom:2.6%;
     right:3.4%;
 
@@ -77,18 +77,23 @@ header {
 }
 
 .FirstItem {
-    height: 350px;
-    width: 350px;
-    position:relative;
-    bottom:100%;
+    height: 35vh;
+    width: 25vw;
+    position:fixed;
+    bottom:58%;
     object-fit: cover;
     border-radius:8px;
 }
 .FirstFrameText {
-    position:relative;
-    bottom:143%;
-    left:47.5%;
-    font-size:40px;
+    width:46vw;
+    height:200px;
+    position:fixed;
+    bottom:70%;
+    left:48%;
+    font-size:2.3vw;
+
+    animation: TextAppear;
+    animation-duration: 3s;
 }
 .AboutText{
     width:48%;
@@ -96,12 +101,11 @@ header {
     font-size: 16px;
 }
 .GoBack{
-    height:30px;
-    width:80px;
-    position:relative;
-    
-    bottom:216.6%;
-    right:2%;
+    height:0.5vh;
+    width:8vw;
+    position:fixed;
+    font-size:0.8vw;
+    bottom:95.2%;
 }
 
 @keyframes FrameAppear{
@@ -109,3 +113,8 @@ header {
     to{margin-left: 0%;}
 }
 /* end. */
+
+@keyframes TextAppear{
+    from{margin-bottom: 100%}
+    to{margin-top:70%}
+}
