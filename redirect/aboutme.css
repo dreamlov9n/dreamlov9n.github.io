@@ -65,8 +65,8 @@ body {
 }
 
 .hellotext {
-    font-size: 120px;
-    margin-bottom: 30px; /*Empty space between .hellotext and .MainText*/
+    font-size:11vh;
+    /* margin-bottom: 0px; Empty space between .hellotext and .MainText*/
     /*animation: HelloSlide;
     animation-iteration-count: infinite;
     animation-duration: 8s;*/
@@ -75,17 +75,22 @@ body {
 
 .MainText {
     text-align: center;
-    font-size: 40px;
+    font-size:2.1vw;
     font-family: Ubuntu;
 }
 
 .shopRedirect {
-    position:relative;
+    position:fixed;
+    top:50%;
+    right:0%;
+    bottom:0%;
     left:15%;
+
     margin:100px;
-    font-size:xx-large;
-    width:350px;
-    height:100px;
+
+    font-size:3.5vh;
+    width:20vw;
+    height: 10vh;
     background-color: black;
     text-align:center;
     line-height: 90px; /*text center*/
@@ -94,12 +99,21 @@ body {
 }
 
 .mangoRedirect {
-    position:relative;
+    position:fixed;
+    top:70%;
+    right:0%;
+    bottom:0%;
     left:15%;
+
+    width:20vw;
+    height: 10vh;
+
+
     margin:100px;
-    font-size:xx-large;
-    width:350px;
-    height:100px;
+    
+    
+
+    font-size:3.5vh;
     background-color: black;
     text-align:center;
     line-height: 90px; /*text center*/
@@ -108,13 +122,17 @@ body {
 }
 
 .aboutRedirect {
-    position:relative;
+    position:fixed;
+    top:70%;
+    right:0%;
+    bottom:0%;
     left:55%;
-    bottom:200px;
+
+    width:20vw;
+    height: 10vh;
     margin:100px;
-    font-size:xx-large;
-    width:350px;
-    height:100px;
+    font-size:3.5vh;
+    
     background-color: black;
     text-align:center;
     line-height: 90px; /*text center*/
@@ -123,13 +141,19 @@ body {
 }
 
 .idkRedirect {
-    position:relative;
+    position:fixed;
+    top:50%;
+    right:0%;
+    bottom:0%;
     left:55%;
-    bottom:600px;
+
+    width:20vw;
+    height: 10vh;
+
+
     margin:100px;
-    font-size:xx-large;
-    width:350px;
-    height:100px;
+    font-size:3.5vh;
+    
     background-color: black;
     text-align:center;
     line-height: 90px; /*text center*/
