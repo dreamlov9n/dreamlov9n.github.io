@@ -30,10 +30,11 @@
 }
 
 .Name {
-    width:150px;
+    width:160px;
     font-family: sans-serif;
     position: relative;
     left: 100px;
+    bottom:8px;
     font-size: xx-large;
 }
 
