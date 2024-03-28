@@ -19,7 +19,6 @@
 }
 
   
-  
 
 
 .Title {
@@ -57,7 +56,7 @@
 
 hr {
     position: relative;
-    width: 2000px;
+    width: 100%;
     right:0%;
     border: 2px solid;
 }
@@ -70,5 +69,9 @@ hr {
 body {
     background-color: #dddddd;
     font-family: "Ubuntu";
+    overflow-x:hidden;
 }
 
+/* * {
+    border: 1px solid red;*/ /*for debugging 
+} */
